@@ -1,0 +1,86 @@
+/* =============================
+   5. PAGINATION
+================================ */
+.pagination {
+	border-radius: 0px;
+	margin: 0 0 -6px;
+	li {
+		margin-right: 2px;
+		float: left;
+		a {
+			width: 30px;
+			height: 30px;
+			background: transparent;
+			border: none;
+			color: #666666;
+			border-radius: 3px;
+			padding: 0;
+			line-height: 28px;
+			text-align: center;
+			border: 1px solid transparent;
+			&:focus {
+				width: 30px;
+				height: 30px;
+				background: transparent;
+				border: none;
+				color: #666666;
+				border-radius: 3px;
+				padding: 0;
+				line-height: 28px;
+				text-align: center;
+				border: 1px solid transparent;
+			}
+			&:hover {
+				background: transparent;
+				border: 1px solid #85ba41;
+				color: #85ba41;
+			}
+		}
+		span {
+			width: 30px;
+			height: 30px;
+			background: transparent !important;
+			border: none;
+			color: #666666;
+			border-radius: 3px;
+			padding: 0;
+			line-height: 30px;
+			text-align: center;
+		}
+	}
+	li.active {
+		a {
+			width: 30px;
+			height: 30px;
+			background: #85ba41;
+			border: none;
+			color: #fff;
+			border-radius: 3px;
+			padding: 0;
+			line-height: 30px;
+			text-align: center;
+			&:hover {
+				width: 30px;
+				height: 30px;
+				background: #85ba41;
+				border: none;
+				color: #fff;
+				border-radius: 3px;
+				padding: 0;
+				line-height: 30px;
+				text-align: center;
+			}
+			&:focus {
+				width: 30px;
+				height: 30px;
+				background: #85ba41;
+				border: none;
+				color: #fff;
+				border-radius: 3px;
+				padding: 0;
+				line-height: 30px;
+				text-align: center;
+			}
+		}
+	}
+}

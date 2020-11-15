@@ -1,0 +1,79 @@
+@import "animate.css";
+/* =============================
+   1. GLOBAL STYLES 
+================================ */
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	height: 100%;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	background: #fff;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+a {
+	-webkit-transition: all 0.35s;
+	-moz-transition: all 0.35s;
+	transition: all 0.35s;
+	color: #1d1e20;
+	text-decoration: none;
+	&:hover {
+		color: #abd46e;
+	}
+}
+button {
+	-webkit-transition: all 0.35s;
+	-moz-transition: all 0.35s;
+	transition: all 0.35s;
+}
+h1 {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	color: #1d1e20;
+	font-weight: 500;
+}
+h2 {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	color: #1d1e20;
+	font-weight: 500;
+}
+h3 {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	color: #1d1e20;
+	font-weight: 500;
+}
+h4 {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	color: #1d1e20;
+	font-weight: 500;
+}
+h5 {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	color: #1d1e20;
+	font-weight: 500;
+}
+h6 {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	color: #1d1e20;
+	font-weight: 500;
+}
+p {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 21px;
+	margin-bottom: 0px;
+	color: #666666;
+	font-weight: 400;
+}

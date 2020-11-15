@@ -1,0 +1,155 @@
+/* =============================
+   13. INSTRAGRAM FEED
+================================ */
+.instagram-lite {
+	padding: 0;
+	margin: 0 -2px;
+	li {
+		list-style: none;
+		margin: 0;
+		float: left;
+		width: 79px;
+		height: 79px;
+		margin: 0 2px 4px;
+		img {
+			width: 79px;
+			height: 79px;
+		}
+	}
+}
+footer {
+	#tweecool {
+		ul {
+			li {
+				color: #a5a7ac;
+				padding-left: 25px;
+				border-bottom: 1px solid #343537;
+				&:after {
+					color: #626468;
+				}
+				span {
+					color: #696b6f;
+				}
+			}
+		}
+	}
+}
+.trending {
+	li {
+		.ratings {
+			margin-top: 3px;
+			img {
+				margin-right: 0px;
+			}
+		}
+	}
+}
+.span-align {
+	span {
+		float: left;
+		margin-right: 18px;
+	}
+}
+.footer-row2 {
+	padding: 45px 0 15px;
+	border-top: 1px solid #343537;
+}
+.footer-link {
+	ul {
+		padding: 0;
+		margin: 0;
+		li {
+			list-style: none;
+			padding: 0;
+			margin: 0 0 7px;
+			font-size: 15px;
+			color: #a5a7ac;
+			a {
+				color: #a5a7ac;
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+.footer-5col {
+	.col-md-2 {
+		width: 20%;
+	}
+}
+.footer2 {
+	.footer-social {
+		span {
+			display: block;
+			display: table;
+			width: 100%;
+			color: #a5a7ac;
+			font-size: 15px;
+			line-height: 36px;
+			&:first-child {
+				a {
+					background: #305b9e;
+				}
+			}
+			&:nth-child(2) {
+				a {
+					background: #3aaef0;
+				}
+			}
+			&:nth-child(3) {
+				a {
+					background: #5372b3;
+				}
+			}
+			&:nth-child(4) {
+				a {
+					background: #d341b2;
+				}
+			}
+			&:nth-child(5) {
+				a {
+					background: #de4443;
+				}
+			}
+		}
+		a {
+			background: #626468;
+			color: #fff;
+			float: left;
+			margin-right: 10px;
+			font-size: 16px;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 30px;
+			margin-top: 5px;
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+}
+.flogo2 {
+	position: relative;
+	top: -5px;
+	margin-right: 25px;
+}
+.footer-row3 {
+	border-bottom: 1px solid #343537;
+	h5 {
+		float: left;
+		line-height: 38px;
+		margin: 0;
+	}
+	.footer-newsletter {
+		min-width: 390px;
+	}
+	.text-right {
+		display: table;
+		width: 311px;
+		float: right;
+		margin-right: -10px;
+	}
+}
